@@ -1,0 +1,18 @@
+# Counter App
+
+🚧 **In Progress**
+
+A simple JavaScript counter application built as part of JavaScript fundamentals practice.
+
+## Planned Features
+- Increase / Decrease counter
+- Reset functionality
+- UI updates based on state
+
+## Concepts Being Practiced
+- DOM selection and manipulation
+- Event listeners
+- Managing application state
+
+## Notes
+This project is being built incrementally as part of a learning process.
