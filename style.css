@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 19, 19);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.step-container{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.step-container label{
+    font-size: 1.2rem;
+}
+.step-container input{
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(19, 19, 19);
+    color: whitesmoke;
+    width: 80px;
+}
+.limits-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.limits-container div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.limits-container input{
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(19, 19, 19);
+    color: whitesmoke;
+    width: 80px;
+}
+.button{
+    padding: 15px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.button:hover{
+    background-color: rgb(77, 49, 15);
+    color: white;
+    transition: background-color, color 0.3s;
+}
+.button:active{
+    transform: scale(0.95);
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.count-label{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 5rem;
+}
+.keyboard-info{
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: rgb(150, 150, 150);
+}
