@@ -29,11 +29,17 @@
         <button id="increase-button" class="button">Increase + (↑)</button>
         <button id="decrease-button" class="button">Decrease - (↓)</button>
         <button id="reset-button" class="button">Reset (R)</button>
+        <button id="clear-history-button" class="button">Clear History (C)</button>
         <div id="count-label" class="count-label">0</div>
+        <div id="limit-warning" class="limit-warning"></div>
+    </div>
+    
+    <div class="history-container">
+        <p><strong>History:</strong> <span id="history-display">0</span></p>
     </div>
     
     <div class="keyboard-info">
-        <p>🎮 Keyboard Shortcuts: ↑ Increase | ↓ Decrease | R Reset</p>
+        <p>🎮 Keyboard Shortcuts: ↑ Increase | ↓ Decrease | R Reset | C Clear History</p>
     </div>
     
     <script src="/index.js"></script>

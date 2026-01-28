@@ -82,6 +82,40 @@ h2{
     margin-top: 10px;
     font-size: 5rem;
 }
+.limit-warning{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #ff6b6b;
+    min-height: 30px;
+    font-weight: bold;
+}
+.limit-warning.warning-active{
+    animation: pulse 0.5s infinite;
+}
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+.history-container{
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    font-size: 0.95rem;
+    max-width: 400px;
+}
+#history-display{
+    color: #87ceeb;
+    word-break: break-all;
+}
+button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+button:disabled:hover{
+    background-color: transparent;
+}
 .keyboard-info{
     margin-top: 30px;
     font-size: 0.9rem;
